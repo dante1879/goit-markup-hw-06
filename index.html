@@ -434,22 +434,20 @@
         </div>
         <div class="subscribe-footer">
           <p class="subscribe-text">Підпишіться на розсилку</p>
-          <div class="subscribe-form-div">
-            <form method="post" class="subscribe-form">
-              <input
-                type="email"
-                class="subscribe-email-input"
-                name="email"
-                placeholder="E-mail"
-              />
-              <button type="submit" class="subscribe-button">
-                <span class="footer-submit-text"> Підписатися</span>
-                <svg width="24" height="24" class="subscribe-svg">
-                  <use href="./images/sprite.svg#icon-send"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
+          <form method="post" class="subscribe-form">
+            <input
+              type="email"
+              class="subscribe-email-input"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="subscribe-button">
+              <span class="footer-submit-text"> Підписатися</span>
+              <svg width="24" height="24" class="subscribe-svg">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -509,25 +507,24 @@
               placeholder="Введіть текст"
             ></textarea>
           </div>
-          <div class="form-field-terms">
-            <label for="terms" class="terms-label">
-              <input
-                type="checkbox"
-                class="terms-checkbox"
-                name="terms"
-                id="terms"
-              />
-              <span class="checkbox-icon">
-                <svg width="16" height="15" class="icon-check">
-                  <use href="./images/sprite.svg#icon-check"></use>
-                </svg>
-              </span>
-              <p class="terms-text">
-                Погоджуюся з розсилкою та приймаю
-                <a href="#" class="terms-link">Умови договору</a>
-              </p>
-            </label>
-          </div>
+          <label for="terms" class="terms-label">
+            <input
+              type="checkbox"
+              class="terms-checkbox"
+              name="terms"
+              id="terms"
+            />
+            <span class="checkbox-icon">
+              <svg width="16" height="15" class="icon-check">
+                <use href="./images/sprite.svg#icon-check"></use>
+              </svg>
+            </span>
+            <span class="terms-text">
+              Погоджуюся з розсилкою та приймаю
+              <a href="#" class="terms-link">Умови договору</a>
+            </span>
+          </label>
+
           <div class="form-submit">
             <button type="submit" class="btn-submit-modal">Відправити</button>
           </div>
